@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--javascript libraries-->
+</head>
+
+<body>
+    <form method="post">
+        <table>
+            <tr>
+                <td>
+                    <label class="label-name">First Name</label>
+                </td>
+                <td>
+                    <input type="text" id="txtFirstName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label-name" id="lblLastName" style="color:yellow">
+                        Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="txtLastName">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label-name">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="txtEmail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label-name">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="txtPassword">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label-name">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" id="rdgGenderMale" name="gender">Male
+                    <input type="radio" id="rdgGenderFemale" name="gender">Female
+                    <input type="radio" id="rdgGenderNotInterested" name="gender">N/I
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label-name">DOB</label>
+                </td>
+                <td>
+                    <input type="date" id="txtDOB">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label class="label-name">Country</label>
+                </td>
+                <td>
+                    <select id="ddlCountry">
+                        <option value="IN">India</option>
+                        <option value="US">United States</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" id="chkTerms"> </td>
+                <td>
+                    <label class="label-name label-mandatory">I Agree Terms and Conditions</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                    <td>
+                        <input type="submit" id="btnSubmit">
+                    </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

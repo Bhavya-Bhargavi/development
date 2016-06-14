@@ -1,0 +1,19 @@
+/*element based styling*/
+
+body {
+    background-color: darkgray;
+}
+table {
+    margin-left: 10%;
+}
+.label-name {
+    width: 100px;
+    font-size: 20px;
+    padding: 4px;
+}
+.label-mandatory {
+    color: firebrick;
+}
+#lblLastName {
+    color: darkgreen !important;
+}
