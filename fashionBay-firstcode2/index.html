@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="fashionBay">
+
+<head>
+    <title ng-bind="appName"></title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+    <script src="bower_components/jquery/jquery.js"></script>
+    <link rel="stylesheet" href="vendor/jquery.bxslider.css">
+    <script src="vendor/jquery.bxslider.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+</head>
+
+<body>
+    <div class="container" ng-controller="mainCtrl">
+        <div ng-include="headerTemplate"></div>
+        <div ng-include="templateUrl"></div>
+    </div>
+    <div custom-name></div>
+    <!--products module-->
+    <script src='app/products/products.js'></script>
+    <script src="app/products/produtSvc.js"></script>
+    <!--Cart module-->
+    <script src="app/cart/cart.js"></script>
+    <script src="app/cart/cartCtrl.js"></script>
+    <!--home module-->
+    <script src="app/home/home.js"></script>
+    <script src="app/home/homeCtrl.js"></script>
+    <!--End of home Moudle-->
+    <!--Register  Module-->
+    <script src="app/register/register.js"></script>
+    <script src="app/register/registerCtrl.js"></script>
+    <!--End of Register Module-->
+    <!--login module-->
+    <script src="app/login/login.js"></script>
+    <script src="app/login/authenticate.js"></script>
+    <script src="app/login/loginCtrl.js"></script>
+    <!--end of login-->
+    <!--Componentss Begin-->
+    <script src="app/components/components.js"></script>
+    <script src="app/components/rangeFilter.js"></script>
+    <script src="app/components/alphabetsOnly.js"></script>
+    <script src="app/components/numbersOnly.js"></script>
+    <script src="app/components/customName.js"></script>
+    <!--Components End-->
+    <!--Main Module-->
+    <script src="app/app.js"></script>
+    <script src="app/common/mainCtrl.js"></script>
+</body>
+
+</html>

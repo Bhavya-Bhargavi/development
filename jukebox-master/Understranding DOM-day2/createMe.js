@@ -29,11 +29,17 @@ function buildHTML() {
     //Label Creation
     var labelFirstName =
         createControl("label", "lblFirstName", "", "lbl-control");
-    labelFirstName.innerHTML = "First Name:"container.appendChild(labelFirstName);
+    labelFirstName.innerHTML = "First Name:"
+
+    container.appendChild(labelFirstName);
 
     //text box 
     var txtFirstName = createControl("input", "txtFirstName", "text");
     container.appendChild(txtFirstName);
+
+
+
+
 }
 
 buildHTML();
